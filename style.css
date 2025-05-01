@@ -1,0 +1,87 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Main container for the resume */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Heading Styles */
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+  }
+  
+  /* Contact details style */
+  .contact {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section styling */
+  .section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .section p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Skills section styling */
+  .skills span {
+    display: inline-block;
+    background: #ecf0f1;
+    margin: 0.2rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #2c3e50;
+  }
+  
+  /* Link styles for projects or external links */
+  a {
+    color: #3498db;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
